@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_sessoes"
+        android:icon="@drawable/ic_time_black_24dp"
+        android:title="Sessões"/>
+    <item
+        android:id="@+id/nav_pacientes"
+        android:icon="@drawable/ic_people_black_24dp"
+        android:title="Paciente"/>
+    <item
+        android:id="@+id/nav_mais"
+        android:icon="@drawable/ic_more_horiz_black_24dp"
+        android:title="Mais"/>
+</menu>

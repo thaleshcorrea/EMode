@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Fisioterapeuta"
+        app:iconSpaceReserved="false">
+        <Preference
+            android:title="Nome"
+            android:key="@string/nomeFisioKey"
+            app:iconSpaceReserved="false"/>
+        <Preference
+            android:summary="email@email.com"
+            android:title="E-mail"
+            android:key="@string/emailKey"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Geral"
+        app:iconSpaceReserved="false">
+        <Preference android:title="Sobre"
+            app:iconSpaceReserved="false">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.example.emode.Sobre"
+                android:targetPackage="com.example.emode" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <Preference
+            android:layout="@layout/preference_text_view"
+            android:title="Sair"
+            android:key="@string/exitKey"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+</PreferenceScreen>
